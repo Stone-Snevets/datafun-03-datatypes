@@ -72,6 +72,10 @@ def illustrate_tuples():
     hasOne = 1 in tupleD  # True
     hasFour = 4 in tupleD  # False
 
+    logger.info(f"===== Membership Test =====")
+    logger.info(f"{hasOne = }")
+    logger.info(f"{hasFour = }")
+
     # tuple indexing (0 is first, -1 is last, or 1 less than the length)
 
     my_tuple = (1, 2, 3)
@@ -79,6 +83,12 @@ def illustrate_tuples():
     second = my_tuple[1]
     third = my_tuple[2]
     last = my_tuple[-1]
+
+    logger.info(f"===== Tuple Indexing =====")
+    logger.info(f"{first = }")
+    logger.info(f"{second = }")
+    logger.info(f"{third = }")
+    logger.info(f"{last = }")
 
     # Use tuples to return multiple values from a function
 
@@ -120,13 +130,20 @@ def illustrate_sets():
     logger.info(f"setB = {setB}")
 
     # set union
-    setC = setA | setB
+    setC = setA | setB          # = setA.union(setB)
+    logger.info(f"{setC = }")
 
     # set intersection
-    setD = setA & setB
+    setD = setA & setB          # = setA.intersection(setB)
+    logger.info(f"{setD = }")
 
     # set difference
-    setE = setA - setB
+    setE = setA - setB          # = setA.difference(setB)
+    logger.info(f"{setE = }")
+
+    # set symmetric difference
+    setF = setA ^ setB          # = setA.symmetric_difference(setB)
+    logger.info(f"{setF = }")
 
     # sets are often used to remove duplicates from a list
     # after gettin the set, convert it back to a list with list() or []

@@ -1,4 +1,9 @@
 """
+Program to explore "corpus" text files and find similarities
+
+Modified by Solomon Stevens
+Date: September 8th, 2023
+
 Optional bonus. See course site for details.
 
 >>> len(longwordset1)
@@ -30,7 +35,7 @@ def compare_two_plays():
         text = f1.read()
         wordlist1 = text.split()  # split on whitespace
 
-    logger.info(f"List of words from play 1: {wordlist1}")
+    #--------logger.info(f"List of words from play 1: {wordlist1}")
 
 
     # read from file and get a list of words
@@ -39,7 +44,7 @@ def compare_two_plays():
         text = f2.read()
         wordlist2 = text.split()  # split on whitespace
 
-    logger.info(f"List of words from play 2: {wordlist2}")
+    #---------logger.info(f"List of words from play 2: {wordlist2}")
 
 
     # Done with files - let the files close and the work begin
@@ -48,12 +53,20 @@ def compare_two_plays():
     # hint: use sorted() to sort the list
     # hint: use set() to remove duplicates
     # name them wordset1 and wordset2
-    wordset1 = set()  # TODO fix this line
-    wordset2 = set()  # TODO fix this line
+    wordset1 = set(sorted(wordlist1))
+    wordset2 = set(sorted(wordlist2))
+
+
+    #-> Logging current findings
+    logger.info("")
+    logger.info(f"Number of words in text_hamlet.txt: {len(wordlist1)}")
+    logger.info(f"Number of unique words in text_hamlet.txt: {len(wordset1)}")
+    logger.info(f"Number of words in text_juliuscaesar.txt: {len(wordlist2)}")
+    logger.info(f"Number of unique words in text_juliuscaesar.txt: {len(wordset2)}")
 
 
     # initialize a variable maxlen = 10
-    maxlen = 1  # TODO fix this line
+    maxlen = 10
 
     # use a list comprension to get a list of words longer than 10
     # for word in wordset1
@@ -65,8 +78,8 @@ def compare_two_plays():
     # hint: use set()
     # name them longwordset1 and longwordset2
 
-    longwordset1 = set()  # TODO: fix this line
-    longwordset2 = set()  # TODO: fix this line
+    longwordset1 = set([word for word in wordset1 if len(word) > maxlen])
+    longwordset2 = set([word for word in wordset2 if len(word) > maxlen])
 
     # find the intersection of the two sets
     # that is, the words in both longwordset1 1 & longwordset2
@@ -74,12 +87,21 @@ def compare_two_plays():
     longwords = longwordset1 & longwordset2
 
     # print the length of the sets and the list
-    print(len(longwordset1))
-    print(len(longwordset2))
-    print(len(longwords))
-    print()
-    print(f"{sorted(longwords) = }")
-    print()
+    #-> print() doesn't want to work for some reason.  Not sure why.
+    #-----------------------------------------
+    #print(len(longwordset1))
+    #print(len(longwordset2))
+    #print(len(longwords))
+    #print()
+    #print(f"{sorted(longwords) = }")
+    #print()
+    #----------------------------------------
+    logger.info("")
+    logger.info(f"{len(longwordset1) = }")
+    logger.info(f"{len(longwordset2) = }")
+    logger.info(f"{len(longwords) = }")
+    logger.info("")
+    logger.info(f"{sorted(longwords)}")
 
     # check your work
     print("TESTING...if nothing prints before the testing is done, you passed!")

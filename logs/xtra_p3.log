@@ -1,0 +1,25 @@
+2023-09-08 11:07:51,451 =============================================================
+2023-09-08 11:07:51,451 =============================================================
+2023-09-08 11:07:51,452 Today is 2023-09-08 at 11:07 AM
+2023-09-08 11:07:51,467 This file is running on: nt Windows 10
+2023-09-08 11:07:51,468 The Python version is: 3.11.4
+2023-09-08 11:07:51,468 The active conda environment is:  None
+2023-09-08 11:07:51,468 The active pip environment is:    None
+2023-09-08 11:07:51,468 The active environment path is:   C:\Users\healt\AppData\Local\Programs\Python\Python311
+2023-09-08 11:07:51,468 The current working directory is: C:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-08 11:07:51,468 This source file is in:           c:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-08 11:07:51,468 =============================================================
+2023-09-08 11:07:51,468 =============================================================
+2023-09-08 11:07:51,468 Calling functions from main block
+2023-09-08 11:07:51,468 Calling compare_two_plays()
+2023-09-08 11:07:51,485 
+2023-09-08 11:07:51,485 Number of words in text_hamlet.txt: 31999
+2023-09-08 11:07:51,485 Number of unique words in text_hamlet.txt: 7714
+2023-09-08 11:07:51,485 Number of words in text_juliuscaesar.txt: 20728
+2023-09-08 11:07:51,485 Number of unique words in text_juliuscaesar.txt: 4967
+2023-09-08 11:07:51,486 len(longwordset1) = 415
+2023-09-08 11:07:51,486 len(longwordset2) = 197
+2023-09-08 11:07:51,486 len(longwords) = 13
+2023-09-08 11:07:51,486 
+2023-09-08 11:07:51,486 ['conference.', 'conscience;', 'consequence;', 'constantly.', 'corruption,', 'countenance', 'countenance,', 'enterprise,', 'honourable.', 'immediately.', 'replication', 'themselves,', 'threatening']
+2023-09-08 11:07:51,493 Complete the code to compare two plays.

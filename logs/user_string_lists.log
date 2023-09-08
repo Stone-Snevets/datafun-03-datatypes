@@ -1,0 +1,59 @@
+2023-09-07 14:23:52,885 =============================================================
+2023-09-07 14:23:52,885 =============================================================
+2023-09-07 14:23:52,885 Today is 2023-09-07 at 02:23 PM
+2023-09-07 14:23:52,903 This file is running on: nt Windows 10
+2023-09-07 14:23:52,903 The Python version is: 3.11.4
+2023-09-07 14:23:52,903 The active conda environment is:  None
+2023-09-07 14:23:52,903 The active pip environment is:    None
+2023-09-07 14:23:52,903 The active environment path is:   C:\Users\healt\AppData\Local\Programs\Python\Python311
+2023-09-07 14:23:52,903 The current working directory is: C:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-07 14:23:52,903 This source file is in:           c:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-07 14:23:52,903 =============================================================
+2023-09-07 14:23:52,903 =============================================================
+2023-09-07 14:23:52,903 
+2023-09-07 14:23:52,903 ===== Built In Functions =====
+2023-09-07 14:23:52,903 ---< len() >---
+2023-09-07 14:23:52,903 len_make = 7
+2023-09-07 14:23:52,903 len_type = 7
+2023-09-07 14:23:52,903 len_company = 7
+2023-09-07 14:23:52,903 len_haul = 2
+2023-09-07 14:23:52,903 len_location = 3
+2023-09-07 14:23:52,904 len_road = 3
+2023-09-07 14:23:52,904 ---< set() >---
+2023-09-07 14:23:52,904 unique_make = {'Truck', 'Car', 'Van', 'SUV'}
+2023-09-07 14:23:52,904 unique_type = {'Gasoline', 'Electric'}
+2023-09-07 14:23:52,904 unique_company = {'Toyota', 'Ford', 'Honda', 'Chevrolet', 'Audi', 'Volkswagon', 'Tesla'}
+2023-09-07 14:23:52,904 unique_haul = {'Cargo', 'Passenger'}
+2023-09-07 14:23:52,904 unique_location = {'city', 'country', 'suburbs'}
+2023-09-07 14:23:52,904 unique_road = {'city', 'backroads', 'highway'}
+2023-09-07 14:23:52,904 ---< zip() >---
+2023-09-07 14:23:52,904 === Make and Type===
+2023-09-07 14:23:52,904 Make:   SUV    Type: Electric
+2023-09-07 14:23:52,904 Make:   Car    Type: Electric
+2023-09-07 14:23:52,904 Make:   Van    Type: Gasoline
+2023-09-07 14:23:52,904 Make: Truck    Type: Gasoline
+2023-09-07 14:23:52,904 Make:   Car    Type: Electric
+2023-09-07 14:23:52,904 Make:   Car    Type: Gasoline
+2023-09-07 14:23:52,904 === Company and Make ===
+2023-09-07 14:23:52,904 Company:     Toyota    Make: SUV
+2023-09-07 14:23:52,904 Company:      Tesla    Make: Car
+2023-09-07 14:23:52,904 Company:      Honda    Make: Van
+2023-09-07 14:23:52,904 Company:  Chevrolet    Make: Truck
+2023-09-07 14:23:52,904 Company:       Audi    Make: Car
+2023-09-07 14:23:52,904 Company: Volkswagon    Make: Car
+2023-09-07 14:23:52,904 === Company, Make and Type ===
+2023-09-07 14:23:52,904 Company:     Toyota    Make:   SUV    Type: Electric
+2023-09-07 14:23:52,904 Company:      Tesla    Make:   Car    Type: Electric
+2023-09-07 14:23:52,904 Company:      Honda    Make:   Van    Type: Gasoline
+2023-09-07 14:23:52,904 Company:  Chevrolet    Make: Truck    Type: Gasoline
+2023-09-07 14:23:52,904 Company:       Audi    Make:   Car    Type: Electric
+2023-09-07 14:23:52,904 Company: Volkswagon    Make:   Car    Type: Gasoline
+2023-09-07 14:23:52,904 
+2023-09-07 14:23:52,904 ===== Random Choice =====
+2023-09-07 14:23:52,905 Gasoline Ford Cars have much higher than Gasoline Volkswagon Vans do. ...meh, whatever.
+2023-09-07 14:23:52,905 
+2023-09-07 14:23:52,905 ===== Get Unique Words in a Text File =====
+2023-09-07 14:23:52,927 File selected: text_hamlet.txt
+2023-09-07 14:23:52,928 For the sake of sanity, I have chosen not to display the file... it's long.
+2023-09-07 14:23:52,928 Number of words: 175065
+2023-09-07 14:23:52,928 Number of distinct words (no duplicates): 7714

@@ -1,0 +1,24 @@
+2023-09-06 10:36:32,803 =============================================================
+2023-09-06 10:36:32,804 =============================================================
+2023-09-06 10:36:32,804 Today is 2023-09-06 at 10:36 AM
+2023-09-06 10:36:32,821 This file is running on: nt Windows 10
+2023-09-06 10:36:32,821 The Python version is: 3.11.4
+2023-09-06 10:36:32,821 The active conda environment is:  None
+2023-09-06 10:36:32,821 The active pip environment is:    None
+2023-09-06 10:36:32,821 The active environment path is:   C:\Users\healt\AppData\Local\Programs\Python\Python311
+2023-09-06 10:36:32,822 The current working directory is: C:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-06 10:36:32,822 This source file is in:           c:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-06 10:36:32,822 =============================================================
+2023-09-06 10:36:32,822 =============================================================
+2023-09-06 10:36:32,822 Calling functions from main block
+2023-09-06 10:36:32,822 Calling process_text_woodchuck()
+2023-09-06 10:36:32,822 The list of words is: ['How', 'much', 'wood', 'would', 'a', 'woodchuck', 'chuck', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood?', 'He', 'would', 'chuck,', 'he', 'would,', 'as', 'much', 'as', 'he', 'could,', 'and', 'chuck', 'as', 'much', 'wood', 'as', 'a', 'woodchuck', 'would', 'if', 'a', 'woodchuck', 'could', 'chuck', 'wood.']
+2023-09-06 10:36:32,822 There are 38 words in the file.
+2023-09-06 10:36:32,822 The set of unique words is: {'could,', 'he', 'would,', 'a', 'wood?', 'chuck,', 'How', 'wood', 'woodchuck', 'wood.', 'would', 'He', 'much', 'chuck', 'could', 'and', 'if', 'as'}
+2023-09-06 10:36:32,822 There are 18 unique words in the file.
+2023-09-06 10:36:32,822 Calling create_random_sentence()
+2023-09-06 10:36:32,822 Random sentence: The happy fish jumps slowly.
+2023-09-06 10:36:32,822 Calling create_random_sentence()
+2023-09-06 10:36:32,822 Random sentence: The angry snake jumps quickly.
+2023-09-06 10:36:32,822 Calling play_game()
+2023-09-06 10:36:32,822 ready_for_continous_game = True

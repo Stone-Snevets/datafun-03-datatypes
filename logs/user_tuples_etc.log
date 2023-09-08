@@ -1,0 +1,26 @@
+2023-09-08 10:38:19,056 =============================================================
+2023-09-08 10:38:19,056 =============================================================
+2023-09-08 10:38:19,056 Today is 2023-09-08 at 10:38 AM
+2023-09-08 10:38:19,074 This file is running on: nt Windows 10
+2023-09-08 10:38:19,074 The Python version is: 3.11.4
+2023-09-08 10:38:19,074 The active conda environment is:  None
+2023-09-08 10:38:19,075 The active pip environment is:    None
+2023-09-08 10:38:19,075 The active environment path is:   C:\Users\healt\AppData\Local\Programs\Python\Python311
+2023-09-08 10:38:19,075 The current working directory is: C:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-08 10:38:19,075 This source file is in:           c:\Users\healt\Documents\DataAnalyticsFundamentals\datafun-03-datatypes
+2023-09-08 10:38:19,075 =============================================================
+2023-09-08 10:38:19,075 =============================================================
+2023-09-08 10:38:19,075 ===== Tuples Randomly Generated =====
+2023-09-08 10:38:19,075 tup1 = <generator object <genexpr> at 0x000002B5912B9380>
+2023-09-08 10:38:19,075 tup2 = <generator object <genexpr> at 0x000002B5912B8C80>
+2023-09-08 10:38:19,075 
+2023-09-08 10:38:19,075 ===== Working with Sets =====
+2023-09-08 10:38:19,075 set1 = {1, 69, 142, 15, 20, 53, 118, 22, 90, 91}
+2023-09-08 10:38:19,075 set2 = {352, 225, 165, 172, 140, 108, 210, 249, 218, 157}
+2023-09-08 10:38:19,075 set_union = {1, 69, 140, 142, 15, 210, 20, 22, 90, 91, 218, 157, 352, 225, 165, 172, 108, 53, 118, 249}
+2023-09-08 10:38:19,075 set_intersection = set()
+2023-09-08 10:38:19,075 
+2023-09-08 10:38:19,075 ===== Working with Dictionaries =====
+2023-09-08 10:38:19,076 File Chosen: text_zen_of_python.txt
+2023-09-08 10:38:19,076 dictionary_of_words = {'Beautiful': 1, 'is': 10, 'better': 8, 'than': 8, 'ugly.': 1, 'Explicit': 1, 'implicit.': 1, 'Simple': 1, 'complex.': 1, 'Complex': 1, 'complicated.': 1, 'Flat': 1, 'nested.': 1, 'Sparse': 1, 'dense.': 1, 'Readability': 1, 'counts.': 1, 'Special': 1, 'cases': 1, "aren't": 1, 'special': 1, 'enough': 1, 'to': 5, 'break': 1, 'the': 5, 'rules.': 1, 'Although': 3, 'practicality': 1, 'beats': 1, 'purity.': 1, 'Errors': 1, 'should': 2, 'never': 2, 'pass': 1, 'silently.': 1, 'Unless': 1, 'explicitly': 1, 'silenced.': 1, 'In': 1, 'face': 1, 'of': 2, 'ambiguity,': 1, 'refuse': 1, 'temptation': 1, 'guess.': 1, 'There': 1, 'be': 3, 'one--': 1, 'and': 1, 'preferably': 1, 'only': 1, 'one': 2, '--obvious': 1, 'way': 2, 'do': 2, 'it.': 1, 'that': 1, 'may': 2, 'not': 1, 'obvious': 1, 'at': 1, 'first': 1, 'unless': 1, "you're": 1, 'Dutch.': 1, 'Now': 1, 'never.': 1, 'often': 1, '*right*': 1, 'now.': 1, 'If': 2, 'implementation': 2, 'hard': 1, 'explain,': 2, "it's": 1, 'a': 2, 'bad': 1, 'idea.': 2, 'easy': 1, 'it': 1, 'good': 1, 'Namespaces': 1, 'are': 1, 'honking': 1, 'great': 1, 'idea': 1, '--': 1, "let's": 1, 'more': 1, 'those!': 1}
+2023-09-08 10:38:19,076 sorted_dictionary_of_words = ['*right*', '--', '--obvious', 'Although', 'Beautiful', 'Complex', 'Dutch.', 'Errors', 'Explicit', 'Flat', 'If', 'In', 'Namespaces', 'Now', 'Readability', 'Simple', 'Sparse', 'Special', 'There', 'Unless', 'a', 'ambiguity,', 'and', 'are', "aren't", 'at', 'bad', 'be', 'beats', 'better', 'break', 'cases', 'complex.', 'complicated.', 'counts.', 'dense.', 'do', 'easy', 'enough', 'explain,', 'explicitly', 'face', 'first', 'good', 'great', 'guess.', 'hard', 'honking', 'idea', 'idea.', 'implementation', 'implicit.', 'is', 'it', "it's", 'it.', "let's", 'may', 'more', 'nested.', 'never', 'never.', 'not', 'now.', 'obvious', 'of', 'often', 'one', 'one--', 'only', 'pass', 'practicality', 'preferably', 'purity.', 'refuse', 'rules.', 'should', 'silenced.', 'silently.', 'special', 'temptation', 'than', 'that', 'the', 'those!', 'to', 'ugly.', 'unless', 'way', "you're"]

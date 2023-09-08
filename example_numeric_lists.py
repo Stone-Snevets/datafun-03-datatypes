@@ -148,7 +148,7 @@ def illustrate_list_correlation_and_prediction():
 
     newy = slope * newx + intercept
 
-    logger.info("We predict that when x = {newx}, y will be about {newy}")
+    logger.info(f"We predict that when x = {newx}, y will be about {newy}")#--------FixedTypo--------------
 
 
 def illustrate_list_built_in_functions():
@@ -271,7 +271,7 @@ def illustrate_list_methods():
 def illustrate_list_transformations():
     """This function illustrates transformations that can be applied to a list"""
 
-    logger.info("Score list: {score_list}")
+    logger.info(f"Score list: {score_list}")#----------------------------------FixedTypo---------------------
 
     # TRANFORMATIONS ............................
 
@@ -282,21 +282,21 @@ def illustrate_list_transformations():
     # You could pass in a named function, but honestly this is easier
     # Say "KEEP x such that x > 100 is True" given score_list
     # Cast the result using square brackets to get back a list
-    scores_over_100 = [filter(lambda x: x > 100, score_list)]
+    scores_over_100 = list(filter(lambda x: x > 100, score_list))#--------------list() works, [] doesn't in this one function------
     logger.info(f"Scores over 100: {scores_over_100}")
 
     # Use the built-in function map() anywhere you need to transform a list
 
     # Map each element to its square
-    # Say "map x to x squared" given score_list
+    # Say "map x to 2x" given score_list#-----------------------------------------FixedTypo-------------------
     # Cast the result using square brackets to get a list
-    doubled_scores = [map(lambda x: x * 2, score_list)]
+    doubled_scores = list(map(lambda x: x * 2, score_list))
     logger.info(f"Doubled scores: {doubled_scores}")
 
     # Map each element to its square root
     # Say "map x to the square root of x" given score_list
     # remember to cast the result to a list (using square brackets)
-    sqrt_scores = map(lambda x: math.sqrt(x), score_list)
+    sqrt_scores = list(map(lambda x: math.sqrt(x), score_list))#----------------------FixedTypo--------------------
     logger.info(f"Square root of scores: {sqrt_scores}")
 
     # Map each element (radius) to its area
@@ -304,14 +304,14 @@ def illustrate_list_transformations():
     logger.info(f"Radius list: {radius_list}")
     # Say "map r to pi r squared" given radius_list
     # cast the result to a list using square brackets
-    area_list = [map(lambda r: math.pi * r * r, radius_list)]
+    area_list = list(map(lambda r: math.pi * r * r, radius_list))
     logger.info(f"Area of circles: {area_list}")
 
 
 def illustrate_list_comprehensions():
     """This function illustrates list comprehensions"""
 
-    logger.info("Score list: {score_list}")
+    logger.info(f"Score list: {score_list}")#--------------------------------------------FixedTypo----------
 
     # TRANFORMATIONS - Using List Comprehensions
     # List comprehensions are a concise way to create lists
@@ -325,18 +325,18 @@ def illustrate_list_comprehensions():
     # Cast the result to a list using square brackets
 
     scores_over_100 = [x for x in score_list if x > 100]
-    logger.info("Scores over 100 (using list comprehensions!): {scores_over_100}")
+    logger.info(f"Scores over 100 (using list comprehensions!): {scores_over_100}")#------FixedTypo--------
 
     # Try again "keep x (for each x in score_list) IF  x < 42"
     scores_under_42 = [x for x in score_list if x < 42]
-    logger.info("Scores under 42 (using list comprehensions!): {scores_under_42}")
+    logger.info(f"Scores under 42 (using list comprehensions!): {scores_under_42}")#-------FixedTypo--------
 
     # Map each element to its square
-    # Say "give me x squared (for each x in score_list)"
+    # Say "give me 2x (for each x in score_list)"#-------------------------------FixedTypo-----------------------
     # Cast the result to a list using square brackets
 
     doubled_scores = [x * 2 for x in score_list]
-    logger.info("Doubled scores (using list comprehensions!): {doubled_scores}")
+    logger.info(f"Doubled scores (using list comprehensions!): {doubled_scores}")#-------FixedTypo---------
 
     # Map each element to its square root
     # Say "give me the square root of x (for each x in score_list)"
